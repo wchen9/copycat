@@ -61,8 +61,8 @@
     <repositories>
         <repository>
             <id>central</id>
-            <name>tencent</name>
-            <url>https://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
+            <name>nju</name>
+            <url>https://repo.nju.edu.cn/repository/maven-public/</url>
             <layout>default</layout>
             <releases>
                 <enabled>true</enabled>
@@ -75,8 +75,8 @@
     <pluginRepositories>
         <pluginRepository>
             <id>central</id>
-            <name>tencent</name>
-            <url>https://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
+            <name>nju</name>
+            <url>https://repo.nju.edu.cn/repository/maven-public/</url>
             <layout>default</layout>
             <releases>
                 <enabled>true</enabled>

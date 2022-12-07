@@ -67,7 +67,7 @@
         <repository>
             <id>central</id>
             <name>sjtug</name>
-            <url>https://mirrors.sjtug.sjtu.edu.cn/maven-central/</url>
+            <url>https://repo.nju.edu.cn/repository/maven-public/</url>
             <layout>default</layout>
             <releases>
                 <enabled>true</enabled>
@@ -81,7 +81,7 @@
         <pluginRepository>
             <id>central</id>
             <name>sjtug</name>
-            <url>https://mirrors.sjtug.sjtu.edu.cn/maven-central/</url>
+            <url>https://repo.nju.edu.cn/repository/maven-public/</url>
             <layout>default</layout>
             <releases>
                 <enabled>true</enabled>
