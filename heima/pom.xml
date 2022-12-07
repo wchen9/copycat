@@ -60,14 +60,30 @@
     </build>
     <repositories>
         <repository>
-            <id>tencent</id>
+            <id>central</id>
+            <name>tencent</name>
             <url>https://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
+            <layout>default</layout>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
         </repository>
     </repositories>
     <pluginRepositories>
         <pluginRepository>
-            <id>tencent</id>
+            <id>central</id>
+            <name>tencent</name>
             <url>https://mirrors.cloud.tencent.com/nexus/repository/maven-public/</url>
+            <layout>default</layout>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
         </pluginRepository>
     </pluginRepositories>
 </project>

@@ -14,5 +14,9 @@ public class HelloController {
         log.info("print hello ");
         return "hello";
     }
-
+    @RequestMapping("/02")
+    public String doAnother(){
+        log.info("print another ");
+        return "02";
+    }
 }
