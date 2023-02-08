@@ -10,12 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @RequestMapping("/01")
-    public String doHello(){
+    public String doHello() {
         log.info("print hello ");
         return "hello";
     }
+
     @RequestMapping("/02")
-    public String doAnother(){
+    public String doAnother() {
         log.info("print another ");
         return "02";
     }
