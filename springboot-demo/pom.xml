@@ -80,7 +80,7 @@
         <repository>
             <id>central</id>
             <name>sjtug</name>
-            <url>https://repo.nju.edu.cn/repository/maven-public/</url>
+            <url>https://maven.aliyun.com/nexus/content/groups/public/</url>
             <layout>default</layout>
             <releases>
                 <enabled>true</enabled>
@@ -94,7 +94,7 @@
         <pluginRepository>
             <id>central</id>
             <name>sjtug</name>
-            <url>https://repo.nju.edu.cn/repository/maven-public/</url>
+            <url>https://maven.aliyun.com/nexus/content/groups/public/</url>
             <layout>default</layout>
             <releases>
                 <enabled>true</enabled>
